@@ -1,22 +1,18 @@
 body{
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: 0;
+    background: url("../imagem/fundo.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
 
-}
 
-footer{
-    
-    font-size: 21px;
 }
-
 
 #conteiner{
     padding-top: 100px;
@@ -25,11 +21,14 @@ footer{
     text-align: center;
     
 }
+    
+
 
 .foto-perfil{
     height: 180px;
     border-radius: 100%;
     border: 5px solid white;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -39,27 +38,44 @@ h1 {
     letter-spacing: 0.1em;
     font-size: 4em;
     font-family: 'Open Sans';
-    margin: -10px 0;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
-
-h2{
-    
+h3 {
     color: white;
     padding-bottom: 20px;
     font-weight: thin;
-    
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 21px;
+}
+
+footer h4 {
+    text-align: center;
+    color: white;
+    margin: 0;
 }
 
 
 ul {
     list-style: none;
     padding: 0;
+    
+    
 }
+
+
+ 
+
 li {
     border-radius: 100%;
     border: 2px solid white;
     color: white;
     margin: 8px;
+    margin-top: 50px;
     display: inline-block;
     list-style: none;
     width: 65px;
@@ -81,42 +97,27 @@ a {
 }
 .description {
     display: none;
+    
 }
 
-@media (max-width: 450px) {
-ul {
-    text-align: center;
-}
-li {
-    border-radius: 0%;
-    border: none;
-    color: white;
-    margin: 8px;
-    display: block;
-    list-style: none;
-    margin: 10px 0px;
-    text-align: center;
-    height: auto;
-    width: auto;
-}
-li:hover {
-    background-color: none;
-    transition: none;
-}
-a {
-    text-align: justify;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    padding: 15px;
-    padding-left: 30px;
-    width: 70%;
-}
-a:hover {
-    -webkit-transition: 500ms;
-    -moz-transition: 500ms;
-    transition: 500ms;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    text-decoration: none;
-}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+     body{ background: url("../imagem/fundo.jpg");  } 
+    }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { body{  background: url("../imagem/fundo.jpg"); } }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {body{  background: url("../imagem/fundo.jpg"); }}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {body{  background: url("../imagem/fundo.jpg"); }}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { body{  background: url("../imagem/fundo.jpg") ; }
+} 
+
+
