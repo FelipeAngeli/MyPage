@@ -12,9 +12,10 @@ body{
 
     background: url("../imagem/fundo.jpg");
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+   
 
 
 }
@@ -24,7 +25,7 @@ body{
     padding-bottom: 60px; 
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    
+  
 }
     
 
@@ -81,8 +82,6 @@ ul {
 }
 
 
- 
-
 li {
     border-radius: 100%;
     border: 2px solid white;
@@ -117,19 +116,161 @@ a {
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-     body{ background: url("../imagem/fundo.jpg"); } }
+     body{  background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black; } 
+
+
+        #conteiner{
+            padding-top:0;
+            padding-bottom: 30px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+              
+            }
+
+        li {
+            border-radius: 100%;
+            border: 2px solid white;
+            color: white;
+            margin: 8px;
+            margin-top: 30px;
+            display: inline-block;
+            list-style: none;
+            width: 65px;
+            height: 65px;
+        }
+        
+        
+        }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    body{  background: url("../imagem/fundo.jpg"); } }
+    body{   background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black; } 
+        
+        #conteiner{
+            padding-top:0;
+            padding-bottom: 30px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+                  
+                }
+
+                li {
+                    border-radius: 100%;
+                    border: 2px solid white;
+                    color: white;
+                    margin: 8px;
+                    margin-top: 0px;
+                    display: inline-block;
+                    list-style: none;
+                    width: 65px;
+                    height: 65px;
+                }
+
+        }
+
+
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    body{  background: url("../imagem/fundo.jpg");}}
+    body{   background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;    }
+    
+        
+            #conteiner{
+                padding-top: 100px;
+                padding-bottom: 300px; 
+                background-color: rgba(0, 0, 0, 0.5);
+                text-align: center;
+                      
+                    }
+                
+        
+        }
+
+
+
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px)
-     {body{ background: url("../imagem/fundo.jpg"); }}
+     {body{ background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black; }
+        
+        #conteiner{
+            padding-top: 200px;
+            padding-bottom: 375px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+                      
+            }  
+        
+        .foto-perfil{
+            height: 300px;
+            border-radius: 100%;
+            border: 5px solid white;
+            margin-top: 70px;
+            margin-bottom: 30px;
+                
+        }
+
+        h1 {
+            color: white;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            font-size: 5em;
+            font-family: 'Poppins', sans-serif;
+            /*margin-top: 30px;
+            margin-bottom: 100px;*/
+        }
+        h2 {
+            color: white;
+            padding-bottom: 20px;
+            font-weight: normal;
+            font-size: 2.5em;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 30px;
+        }
+
+        li {
+            border-radius: 100%;
+            border: 2px solid white;
+            color: white;
+            margin: 8px;
+            margin-top: 0px;
+            display: inline-block;
+            list-style: none;
+            width: 85px;
+            height: 85px;
+        }
+
+        a {
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+        }
+
+     
+
+
+     }
+
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { body{  background: url("../imagem/fundo.jpg"); }} 
+@media (min-width: 1200px) { body{  background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;}} 
