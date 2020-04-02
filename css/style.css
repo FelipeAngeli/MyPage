@@ -15,8 +15,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-   
-
 
 }
 
@@ -113,192 +111,446 @@ a {
 }
 
 
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 374.99px) {
+
+    body{
+        font-family: Helvetica,Arial,sans-serif;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;  
+    
+        background: url("../imagem/fundo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    
+    }
+
+
+    #conteiner{
+        
+        padding-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+  
+}
+
+    .foto-perfil{
+        height: 125px;
+       
+        border: 3px solid white;
+        
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        
+        letter-spacing: 0.1em;
+        font-size: 2em;
+        margin-bottom: 20px;
+        
+        }
+
+    h2{
+        font-size: 1em;
+    }
+
+    ul {
+        list-style: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        
+    }
+    
+    li {
+        margin: 2px;
+        width: 45px;
+        height: 45px;}
+
+    a {
+        padding: 8px;
+        
+        }
+
+    
+
+
+
+    footer{
+        text-align: center;
+            
+        font-size: 18px;
+        
+        
+       
+        
+        text-align: center;
+        padding-top: px;
+            
+        }
+
+       
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-     body{  background: url("../imagem/fundo.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: black; } 
+@media (min-width: 375px) and (max-width: 410.99px) {
+
+    body{
+        font-family: Helvetica,Arial,sans-serif;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;  
+    
+        background: url("../imagem/fundo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    
+    }
 
 
-        #conteiner{
-            padding-top:0;
-            padding-bottom: 30px; 
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
-              
-            }
-
-        li {
-            border-radius: 100%;
-            border: 2px solid white;
-            color: white;
-            margin: 8px;
-            margin-top: 30px;
-            display: inline-block;
-            list-style: none;
-            width: 65px;
-            height: 65px;
-        }
+    #conteiner{
         
+        padding-bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+  
+}
+
+    .foto-perfil{
+        height: 175px;
+       
+        border: 4px solid white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
         
-        }
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { 
-    body{   background: url("../imagem/fundo.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: black; } 
+        letter-spacing: 0.1em;
+        font-size: 2.5em;
+        margin-bottom: 30px;
         
-        #conteiner{
-            padding-top:0;
-            padding-bottom: 30px; 
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
-                  
-                }
-
-                li {
-                    border-radius: 100%;
-                    border: 2px solid white;
-                    color: white;
-                    margin: 8px;
-                    margin-top: 0px;
-                    display: inline-block;
-                    list-style: none;
-                    width: 65px;
-                    height: 65px;
-                }
-
         }
 
+    h2{
+        font-size: 1.5em;
+    }
 
+    ul {
+        list-style: none;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        
+        
+    }
+    
+    li {
+        margin: 2px;
+        width: 45px;
+        height: 45px;}
+
+    a {
+        padding: 8px;
+        
+        }
+
+    
+
+
+
+    footer{
+        text-align: center;
+            
+        font-size: 18px;
+ 
+        text-align: center;
+        padding-top: 50px;
+            
+        }
+
+       
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 411px) and (max-width: 575.98px) {
+
+    body{
+        font-family: Helvetica,Arial,sans-serif;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;  
+    
+        background: url("../imagem/fundo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    
+    }
+
+ 
+
+    ul {
+        list-style: none;
+        padding-top: 20px;
+       padding-bottom: 0px;
+        
+        
+    }
+    
+    li {
+        margin: 3px;
+        width: 50px;
+        height: 50px;}
+
+    a {
+        padding: 9px;
+        
+        }
+
+    h1 {
+        
+        letter-spacing: 0.1em;
+        font-size: 3em;
+        margin-bottom: 20px;
+        
+        }
+
+
+
+       
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    body{   background: url("../imagem/fundo.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: black;    }
+
+    body{
+        font-family: Helvetica,Arial,sans-serif;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;  
     
+        background: url("../imagem/fundo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    
+    }
+
+
+    #conteiner{
         
-            #conteiner{
-                padding-top: 100px;
-                padding-bottom: 300px; 
-                background-color: rgba(0, 0, 0, 0.5);
-                text-align: center;
-                      
-                    }
-                
+        padding-bottom: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+  
+}
+
+    .foto-perfil{
+        height: 250px;
+       
+        border: 5px solid white;
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        
+        letter-spacing: 0.1em;
+        font-size: 3.5em;
+        margin-bottom: 30px;
         
         }
 
+    h2{
+        font-size: 2.5em;
+    }
+
+    ul {
+        list-style: none;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+        
+    }
+    
+    li {
+        margin: 5px;
+        width: 55px;
+        height: 55px;}
+
+    a {
+        padding: 12px;
+        
+        }
+
+    
 
 
+
+    footer{
+        text-align: center;
+            
+        font-size: 18px;
+ 
+        text-align: center;
+        padding-top: 75px;
+            
+        }
+	
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px)
-     {body{ background: url("../imagem/fundo.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: black; }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+        font-family: Helvetica,Arial,sans-serif;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;  
+    
+        background: url("../imagem/fundo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+    
+    }
+
+
+    #conteiner{
         
-        #conteiner{
-            padding-top: 200px;
-            padding-bottom: 375px; 
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
-                      
-            }  
+        padding-bottom: 150px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+  
+}
+
+    .foto-perfil{
+        height: 300px;
+       
+        border: 5px solid white;
+        margin-top: 200px;
+        margin-bottom: 75px;
+    }
+
+    h1 {
         
-        .foto-perfil{
-            height: 300px;
-            border-radius: 100%;
-            border: 5px solid white;
-            margin-top: 70px;
-            margin-bottom: 30px;
-                
+        letter-spacing: 0.1em;
+        font-size: 4.5em;
+        margin-bottom: 30px;
+        
         }
 
-        h1 {
-            color: white;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            font-size: 5em;
-            font-family: 'Poppins', sans-serif;
-            /*margin-top: 30px;
-            margin-bottom: 100px;*/
-        }
-        h2 {
-            color: white;
-            padding-bottom: 20px;
-            font-weight: normal;
-            font-size: 2.5em;
-            font-family: 'Montserrat', sans-serif;
-            margin-top: 30px;
-        }
+    h2{
+        font-size: 3em;
+    }
 
-        li {
-            border-radius: 100%;
-            border: 2px solid white;
-            color: white;
-            margin: 8px;
-            margin-top: 0px;
-            display: inline-block;
-            list-style: none;
-            width: 85px;
-            height: 85px;
+    ul {
+        list-style: none;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+        
+    }
+    
+    li {
+        margin: 10px;
+        width: 65px;
+        height: 65px;}
+
+    a {
+        padding: 17px;
+        
         }
 
-        a {
-            color: white;
-            padding: 25px;
-            text-decoration: none;
+    
+
+
+
+    footer{
+        font-size: 25px;
+
+        padding-top: 150px;
+            
         }
+}
 
-     
-
-
-     }
+	
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { body{  background: url("../imagem/fundo.jpg");
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: black;
-            
+@media (min-width: 1200px) {
+	#conteiner{
+        
+        padding-bottom: 0px;
+  
+}
+
+    .foto-perfil{
+        height: 250px;
+       
+        border: 5px solid white;
+        margin-top: 50px;
+        margin-bottom: 75px;
+    }
+
+    h1 {
+        
+        letter-spacing: 0.1em;
+        font-size: 4.5em;
+        margin-bottom: 30px;
+        
         }
 
-        footer{
-            text-align: center;
-                
-            font-size: 21px;
-            background-color: rgba(0, 0, 0, 0.5);
-            
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            padding-top: 225px;
-            
-                
-            }
+    h2{
+        font-size: 3em;
+    }
+
+    ul {
+        list-style: none;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+        
+    }
     
-        .foto-perfil{
-            height: 180px;
-            border-radius: 100%;
-            border: 5px solid white;
-            margin-top: 150px;
-            margin-bottom: 30px;
-            }
+    li {
+        margin: 10px;
+        width: 65px;
+        height: 65px;}
+
+    a {
+        padding: 17px;
         
-        
-        } 
+        }
+
+    
+
+
+
+    footer{
+        font-size: 25px;
+
+        padding-top: 150px;
+            
+        }
+}
+

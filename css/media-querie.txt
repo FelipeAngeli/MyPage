@@ -1,0 +1,246 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px ) and (max-width: 568px) {
+    body{  background: url("../imagem/fundo.jpg");
+           background-attachment: fixed;
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-color: black; } 
+        
+    #conteiner{
+            padding-top:-10px;
+            padding-bottom: 0px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+              
+            }
+        }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 568,01px ) and (max-width: 812px ) {
+     body{  background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black; } 
+
+
+        #conteiner{
+            padding-top:0;
+            padding-bottom: 30px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+              
+            }
+
+        li {
+            border-radius: 100%;
+            border: 2px solid white;
+            color: white;
+            margin: 8px;
+            margin-top: 30px;
+            display: inline-block;
+            list-style: none;
+            width: 65px;
+            height: 65px;
+        }
+        
+        
+        }
+
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 834px ) {
+    body{   background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;    }
+    
+        
+
+
+            #conteiner{
+
+                background-color: rgba(0, 0, 0, 0.5);
+                text-align: center;
+                                  
+                        }  
+            ul {
+                list-style: none;
+                padding-bottom: 200pxS;   
+                            
+                        }
+
+        }
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1024px) and (max-width: 1112px)
+     {body{ background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black; }
+        
+        #conteiner{
+            padding-top: 200px;
+            padding-bottom: 375px; 
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+                      
+            }  
+        
+        .foto-perfil{
+            height: 300px;
+            border-radius: 100%;
+            border: 5px solid white;
+            margin-top: 70px;
+            margin-bottom: 30px;
+                
+        }
+
+        h1 {
+            color: white;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            font-size: 5em;
+            font-family: 'Poppins', sans-serif;
+            /*margin-top: 30px;
+            margin-bottom: 100px;*/
+        }
+        h2 {
+            color: white;
+            padding-bottom: 50px;
+            font-weight: normal;
+            font-size: 2.5em;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 30px;
+        }
+
+        li {
+            border-radius: 100%;
+            border: 2px solid white;
+            color: white;
+            margin: 8px;
+            margin-top: 0px;
+            display: inline-block;
+            list-style: none;
+            width: 85px;
+            height: 85px;
+        }
+
+        a {
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+        }
+
+     
+
+
+     }
+
+ /* Large devices (desktops, less than 1366px) */
+     @media (min-width: 1366px ) and (max-width: 1440px ) {
+
+        body{  background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;
+            
+        }
+
+
+        .foto-perfil{
+            height: 180px;
+            border-radius: 100%;
+            border: 5px solid white;
+            margin-top: 200px;
+            margin-bottom: 30px;
+            
+            }
+
+
+            h2 {
+                color: white;
+                padding-bottom: 50px;
+                font-weight: normal;
+                font-size: 2.5em;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 30px;
+            }
+
+           
+
+            li {
+                border-radius: 100%;
+                border: 2px solid white;
+                color: white;
+                margin: 5px;
+                margin-bottom: 0px;
+                display: inline-block;
+                list-style: none;
+                width: 65px;
+                height: 65px;}
+
+                footer{
+                    text-align: center;
+                        
+                    font-size: 21px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    
+                    
+                        
+                    }
+        
+
+
+      }
+
+
+/* Extra large devices (large desktops, 1680px and up)*/
+@media (min-width: 1680px) { body{  background: url("../imagem/fundo.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: black;
+            
+        }
+
+        footer{
+            text-align: center;
+                
+            font-size: 21px;
+            background-color: rgba(0, 0, 0, 0.5);
+            
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding-top: 250px;
+            
+                
+            }
+    
+        .foto-perfil{
+            height: 180px;
+            border-radius: 100%;
+            border: 5px solid white;
+            margin-top: 150px;
+            margin-bottom: 30px;
+            }
+        
+        
+        } 
